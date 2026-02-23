@@ -73,6 +73,14 @@ class Utility < ApplicationRecord
     self.class.name.underscore.split('_').first
   end
 
+  def word_count_thresholds
+    { short: 50, medium: 100 }
+  end
+
+  def review_max_words
+    50
+  end
+
   private
 
   def utility_type

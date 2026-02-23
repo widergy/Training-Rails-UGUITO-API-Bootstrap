@@ -31,3 +31,5 @@
 
 es:
   hello: "Hola Mundo!"
+  errors:
+    too_long: "too long (maximum %{limit} words for %{utility})"
